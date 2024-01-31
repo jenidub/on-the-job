@@ -1,0 +1,132 @@
+body {
+    background-image: url("https://images.pexels.com/photos/7772200/pexels-photo-7772200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: contain;
+    margin: 0;
+    font-family: "Roboto";
+  }
+  
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #BA3624;
+  }
+  
+  nav {
+    margin: 10px 0;
+    background-color: #BA3624;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    height: 50px;
+  }
+  
+  .images {
+    width: 200px;
+  }
+  
+  .header-logo {
+    width: 200px;
+    border-radius: 75%;
+    border: 2px solid black;
+    display: none;
+  }
+  
+  .about-us {
+    display: flex;
+    background-color: #F4E6CD;
+    padding: 20px 50px;
+    margin: 0;
+    width: full;
+  }
+  
+  .about-us-content,
+  .about-us-image {
+    padding: 10px;
+  }
+  
+  .about-us-content {
+    margin: 10px 30px;
+  }
+  
+  .about-us-image {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .quarterly-menu {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 15px 0;
+  }
+  
+  .favorites {
+    background-color: #BA3624;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .favorites h2 {
+    color: white;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-img {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .location-hours {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .location-image img {
+    width: 200px;
+  }
+  
+  .location-info {
+    margin-left: 50px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  footer img {
+    width: 50px;
+  }
